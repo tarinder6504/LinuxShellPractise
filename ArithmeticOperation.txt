@@ -1,0 +1,8 @@
+We provide you with expressions containing +,-,*,^, / and parenthesis.
+Your task is to evaluate the expression and display the correct output rounding upto 3 decimal places. 
+
+SOLUTION:-
+
+read word
+value=` echo "$word " | bc -l `
+echo $value | python -c "print round(float(raw_input()),3)"
