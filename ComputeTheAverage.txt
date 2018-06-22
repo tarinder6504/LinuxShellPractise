@@ -1,0 +1,8 @@
+Given  N integers, compute their average correct to three decimal places.
+
+SOLUTION:-
+
+read n
+arr=($(cat)) 
+arr=${arr[*]}
+printf "%.3f" $(echo $((${arr// /+}))/$n | bc -l) 
