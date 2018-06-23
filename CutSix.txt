@@ -1,0 +1,5 @@
+Print the characters from thirteenth position to the end.
+
+Solution:-
+
+cut -c13- 
